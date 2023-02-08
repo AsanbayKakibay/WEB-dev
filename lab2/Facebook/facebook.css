@@ -141,6 +141,7 @@ body{
     border-radius: 6px;
     white-space: nowrap;
     color: #fff;
+    cursor: pointer;
 }
 .createpage{
     margin-top: 28px;
@@ -171,8 +172,57 @@ body{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    color: rgb(115, 115, 155);
+    color: rgb(115, 115, 115);
+    margin: auto;
 }
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 19.2px;
+}
+.pluse{
+    padding-left: 10px;
+}
+.button_pluse{
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 0 8px;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    font-size: 18px;
+    font-weight: 700;
+    height: 16px;
+    cursor: pointer;
+}
+.line2{
+    color: rgb(115, 115, 115);
+    margin-bottom: 8px;
+    height: 8px;
+    font-size: 1px;
+    border-bottom: 1px solid #dddfe2;
+}
+.pageFooterChildren{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+.otherlink{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.otherlink .title{
+    padding-left: 20px;
+    text-align: left;
+    vertical-align: top;
+}
+.Meta2023{
+    margin: 20px 0;
 }
