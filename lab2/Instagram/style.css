@@ -16,7 +16,7 @@ input{
     font-size: 12px;
 }
 input::placeholder{
-    color:.#D949E;
+    color:#8D949E;
 }
 input:focus{
     border: 1px solid #8D949E;
