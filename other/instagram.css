@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+}
+body{
+    background-color: #fafafa;
+    height: 100vh;
+    margin: 0px;
+}
+.screen{
+    margin: auto;
+}
+.main{
+    display: flex;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.content-left{
+    float: left;
+    display: flex;
+    width: 380.312px;
+    height: 581.15px;
+    background-size: 468.32px 634.15px;
+    background-image: url(images/iphone.png);
+    background-repeat: no-repeat;
+    background-position: -46px 0;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+.content-left img{
+    position: absolute;
+    top: 60px;
+    left: 310px;
+}
+.content-right{
+    float: right;
+    margin-top: 12px;
+}
+.Logoo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 1px;
+    align-items: center;
+}
+.InstLogo{
+    margin-bottom: 12px;
+    margin-top: 36px;
+    position: relative;
+}
+.logo{
+    background-image: url(images/logo.png);
+    background-size: auto;
+    background-position: 0px -52px;
+    background-repeat: no-repeat;
+    width: 175px;
+    height: 51px;
+    cursor: pointer;
+}
+.info{
+
+}
+.inf{
+    font-size: 14px;
+    margin: 0 40px 6px 40px;
+    line-height: 18px;
+}
+.inf2{
+    border: 1px solid rgb(219, 219, 219);
+    width: 268px;
+}
+input{
+    font-size: 12px;
+    padding: 9px 0 7px 8px;
+    border: 0;
+    margin: 0;
+    width: 260px;
+    height: 20px;
+    background-color: #fafafa;
+}
+.butlog{
+    margin: 8px 40px;
+    justify-content: center;
+}
+.login{
+    background-color: rgb(0, 149, 246);
+    border:1px solid rgb(0, 149, 246);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 18px;
+    width: 268px;
+    height: auto;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 7px 16px;
+}
+.or{
+    margin: 10px 40px 18px;
+    color: rgb(175, 175, 175);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+    top: 6.3px;
+    display: flex;
+    line-height: 9px;
+    width: 100px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+.txtor{
+    margin: 0;
+    padding: 0;
+}
