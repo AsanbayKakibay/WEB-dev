@@ -1,0 +1,20 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10%;
+
+  &_link {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+      color: black;
+      text-decoration: underline;
+    }
+  }
+}
