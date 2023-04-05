@@ -9,7 +9,6 @@ import { AlbumsComponent } from './albums/albums.component';
 import { DetailsComponent } from './details/details.component';
 import { PhotosComponent } from './photos/photos.component';
 import {HttpClientModule} from "@angular/common/http";
-import { ErrorComponent } from './error/error.component';
 import {FormsModule} from "@angular/forms";
 
 @NgModule({
@@ -19,8 +18,7 @@ import {FormsModule} from "@angular/forms";
     AboutComponent,
     AlbumsComponent,
     DetailsComponent,
-    PhotosComponent,
-    ErrorComponent
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
